@@ -1,28 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<style>
- ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
-}
 
-li a {
-  display: block;
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color on hover */
-li a:hover {
-  background-color: #555;
-  color: white;
-}
-
-</style>
     <!-- Basic -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">   
@@ -31,7 +9,7 @@ li a:hover {
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
  
      <!-- Site Metas -->
-    <title>slimming</title>  
+    <title>Our Services-Fascino Body Care</title>  
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -52,12 +30,14 @@ li a:hover {
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 <style>
+   
 
 * {box-sizing: border-box}
 
@@ -102,6 +82,79 @@ li a:hover {
   color: white;
 }
 
+nav{
+	display: flex;
+	padding: 1% 6%;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+}
+
+
+
+
+
+
+
+.nav-links ul li{
+list-style: none;
+display: inline-block;
+padding: 8px 12px;
+ position: relative;
+}
+.nav-links ul li select{
+list-style: none;
+display: inline-block;
+padding: 8px 12px;
+ position: relative;
+}
+.nav-links ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+}
+.nav-links ul li a select{
+	color:white;
+	
+	font-size: 20px;
+	background-color: black;
+}
+
+#mySidenav a {
+  position: absolute;
+  left: -50px;
+  transition: 0.3s;
+  padding: 20px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#about {
+  top: 20px;
+  background-color: #04AA6D;
+}
+
+#blog {
+  top: 80px;
+  background-color: #2196F3;
+}
+
+#projects {
+  top: 140px;
+  background-color: #f44336;
+}
+
+#contact {
+  top: 200px;
+  background-color: #555
+}
 
 
 /* Add an italic font style to all quotes */
@@ -113,183 +166,188 @@ q {font-style: italic;}
 </style>
 </head>
 <body class="barber_version">
-
-    <!-- LOADER -->
-    <div id="preloader">
-        <div class="cube-wrapper">
-		  <div class="cube-folding">
-			<span class="leaf1"></span>
-			<span class="leaf2"></span>
-			<span class="leaf3"></span>
-			<span class="leaf4"></span>
-		  </div>
-		  <span class="loading" data-name="Loading">SMBarber Loading</span>
-		</div>
-    </div><!-- end loader -->
-    <!-- END LOADER -->
-
-
-
-			
-            <div id="home" class="parallax first-section" data-stellar-background-ratio="0.4" style="background-image:url('uploads/our.jpg');">
+    <nav>
+        <a href="Homebs.html"><img src="images/ff.png" width="80%"></a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Our Story</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Services</a>
                 
-							
-                    </div><!-- end row -->
-              
+                <ul class="dropdown-menu">
+                    <li><a href="sl.html">Slimming</a></li>
+                    <li><a href="hair.html">Hair</a></li>
+                    <li><a href="saloon.html">Saloon</a></li>
+                    <li><a href="sk.html">Skin</a></li>
+                    </ul>
+                <li><a href="equip.html">Equipment</a></li>
+                <li><a href="partner.html">Partner With Us</a></li>
            
-   <div class="container-fluid">   
-   <div class="row">  
-<div class="col-md-2">
-
-<ul style="align:left;">
-  <li><a href="#home" style="text-align: center;color: black;">Slimming</a></li>
-  <li><a href="#news"style="text-align: center;color: black;">Skin</a></li>
-  <li><a href="#contact"style="text-align: center;color: black;">Hair</a></li>
-  <li><a href="#about"style="text-align: center;color: black;">Saloon</a></li>
-</ul>
-
-</div>
-<div class="col-md-8">
-  <h1 style="color:red;text-align: left;">SLIMMING</h1>
-  <h5 style="color:grey;">Fascino® Approved Weight Loss Treatments</h5>
-  <p style="color:black;text-align: justify;">Fascino provides you with the best weight loss treatments in Hyderabad. Fascino’s best weight loss treatments minimizes the chances of obesity and serious health-centered risks associated with heart disease, diabetes, and high blood pressure. Fascino’s ranks as one of the top weight loss treatment providing centre and provides the consumers with best weight loss treatments in Hyderabad. Fascino’s best weight loss treatments ensure no one suffers through any traumas with their weight loss treatments. 
-</p><p style="color:black;text-align: justify;">
-Fascino’s best weight loss treatments help you with shedding excess weight and attain a slimmer silhouette. Fascino’s experienced professionals manifest a holistic analysis of your body using internationally approved and safe scientific procedures and came up with an insightful weight loss program that would suit you. These factors structure Fascino as one of the top weight loss treatment providing centre.
-</p>
-<dl style="list-style-type: circle;">
-  <dt style="color:black;">We set realistic weight loss goals – 500gms to 1 kg a week.</dt>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Media</a>
+                
+                <ul class="dropdown-menu">
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="news.html">News</a></li>
+                    </ul>
+                <li><a href="contact.html">Contact Us</a></li>
+                
+                  
   
-  <dt style="color:black;">Focus on low-carbohydrate and low-fat diets, which include lots of fiber and nutrients.</dt>
-    <dt style="color:black;">Recommend moderate levels of physical activity.</dt>
-</dl><br>
-<h4 style="color:grey;">Body Firming & Toning</h4>
+            </ul>
+        </div>
+    </nav>
 
-<p style="color:black;text-align: justify;">Fascino’s best weight loss treatments brings you “Body firming and Toning” techniques which will make your appear much more graceful. Fascino experts state that regular exercise, diets and hydration are often not enough for maintaining body firmness. Thus, Fascino’s “Body firming and Toning” treatments will help you gain a combating cellulite. Fascino Bodycare will be providing the best weight loss treatment in Hyderabad for cellulite reduction treatment.</p>
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <a href="#menu-toggle" class="menuopener" id="menu-toggle"><i class="fa fa-bars"></i></a>
+			
+            <div id="home" class="parallax first-section" data-stellar-background-ratio="0.4" style="background-image:url('images/sl1.jpg');">
+                <div class="container-fluid">
+                    <div class="row">
+						<div id="full-width">
+							<div class="text-center item">
+								
+									<div class="big-tagline text-center">
+										<h2><strong>Slimming</strong><br>
+										</h2>
+										
+										
+									</div>
+								</div>
+							</div>
+						</div>
+                    </div><!-- end row -->
+                </div><!-- end container -->
+            </div><!-- end section -->
 
-<h4 style="color:grey;">Inch Loss</h4>
+            <section class="section nopad cac text-center">
+                <a href="#"><h3>Interested in our awesome services? Just drop an appointment </h3></a>
+            </section>
 
-<p style="color:black;text-align: justify;">Fascino Bodycare is one of the top weight loss treatment providing centers in Hyderabad that offers you painless and safe nonsurgical Inch loss treatments with no additional side effects and result oriented outcome. Fascino’s best weight loss treatments yield out the desirable result in short snap of time. Fascino’s best weight loss treatments promises you successful outcomes.</p>
+            <div id="services" class="section lb">
+                <div class="container-fluid">
+                    <div class="section-title row text-center">
+                        <div class="col-md-8 col-md-offset-2">
+                        
+                        <h3 style="color: red;">Slimming</h3>
+                        <hr class="grd1">
+                       
+                        </div>
+                         
+                        </div>
+                    </div><!-- end title -->             
+                    <div class="row">
+                        <div class="col-md-1">
+                            <div id="mySidenav" class="sidenav">
+                                <a href="sl.html" id="about">Slimming</a>
+                                <a href="hair.html" id="blog">Hair</a>
+                                <a href="saloon.html" id="projects">Saloon</a>
+                                <a href="sk.html" id="contact">Skin</a>
+                              </div>
+                               
+                        </div>
+                        <div class="col-md-3">
+                            <br><br><br>
+                            <img src="images/slim.jpg" width="100%" height="250px">
+                        </div>
+                        <div class="col-md-7">
+                            <p style="text-align: justify;color: red;"><strong>Fascino® Approved Weight Loss Treatments</strong></p>
+<br>
+                            <p style="text-align: justify;color: black;">Fascino provides you with the best weight loss treatments in Hyderabad. Fascino’s best weight loss treatments minimizes the chances of obesity and serious health-centered risks associated with heart disease, diabetes, and high blood pressure. Fascino’s ranks as one of the top weight loss treatment providing centre and provides the consumers with best weight loss treatments in Hyderabad. Fascino’s best weight loss treatments ensure no one suffers through any traumas with their weight loss treatments.</p>
+                            <br>
+                            <p style="text-align: justify;color: black;">Fascino’s best weight loss treatments help you with shedding excess weight and attain a slimmer silhouette. Fascino’s experienced professionals manifest a holistic analysis of your body using internationally approved and safe scientific procedures and came up with an insightful weight loss program that would suit you. These factors structure Fascino as one of the top weight loss treatment providing centre.</p>
+                            <br>
+                            <p style="text-align: justify;color: black;">
+                             - We set realistic weight loss goals – 500gms to 1 kg a week.<br><br>
+- Focus on low-carbohydrate and low-fat diets, which include lots of fiber and nutrients.<br><br>
+- Recommend moderate levels of physical activity.
+                            </p>
+                            <br>
+                            <p style="text-align: justify;color: black;">
+                              <strong style="color: red;">Body Firming & Toning</strong>
+                              <br><br>
+                              Fascino’s best weight loss treatments brings you “Body firming and Toning” techniques which will make your appear much more graceful. Fascino experts state that regular exercise, diets and hydration are often not enough for maintaining body firmness. Thus, Fascino’s “Body firming and Toning” treatments will help you gain a combating cellulite. Fascino Bodycare will be providing the best weight loss treatment in Hyderabad for cellulite reduction treatment.
+                            </p>
+                            <br>
+                            <p style="text-align: justify;color: black;">
+                             <strong style="color: red;"> Inch Loss</strong><br>
+                             <br>
+                              Fascino Bodycare is one of the top weight loss treatment providing centers in Hyderabad that offers you painless and safe nonsurgical Inch loss treatments with no additional side effects and result oriented outcome. Fascino’s best weight loss treatments yield out the desirable result in short snap of time. Fascino’s best weight loss treatments promises you successful outcomes.
+                            </p>
+                            <br>
+                            <p style="text-align: justify;color: black;">
+                              <strong style="color: red;">Skin Tightening</strong>
+                              <br><br>
+                              Skin tightening is done due to the excess loss of weight and the females after pregnancy. The areas where mostly the skin tighten is done near neck, arms, breast can become droopy the front of tummy and the back buttocks and even the inner thighs. Fascino Bodycare is one of the best weight loss clinic in the Hyderabad which will be providing the laser treatment for skin. Laser will not only works on the surface of the skin but also underneath the skin.
+                            </p>
+                            <br>
+                            <p style="text-align: justify;color: black;">
+                              <strong style="color: red;">Cool Sculpting</strong>
+                              <br><br>
+                              Cool Sculpting is not a weight loss procedure. It is a body contouring procedure that uses the
+                              power of cooling to eliminate stubborn fat which is a safe and non-surgical procedure developed by Harvard scientists. This countering treatment is FDA cleared for fat reduction with proven results. Fascino Bodycare weight loss clinics in Hyderabad will be providing board-certified dermatologists. There will not be any pain and patients can expect to see the result within 3 weeks and the final result is seen around three months.
+                            </p>
+                            <br>
+                            <p style="text-align: justify;color: black;">
+                             <strong style="color: red;"> Laser Lipo</strong><br><br>
+                              Fascino Bodycare is one of the best weight loss clinics in Hyderabad which provides you the top Laser Lipo treatment. Fascino’s best Laser Lipo treatment is a non-invasive fat reduction process which absorbs your body fat with the help of 32 highly developed lasers technologies.
+                           <br>
+                           Fascino’s best Laser Lipo treatment stimulation opens in the fat cell wall and breaks down the fat cell contents allowing fat to escape through the stomas. It is considered successful when the fat cell shrinks and collapses, thereafter being safely removed from the body. Fascino’s best weight loss treatments offer you safe, effective, affordable and non-surgical solutions with advanced treatments.
+                            </p>
+                            <br>
+                            <p style="text-align: justify;color: black;">
+                              <strong style="color: red;">Mesotherapy</strong><br><br>
+                              Mesotherapy is a procedure that incorporates all types of medicines that are injected under the epidermis into the fatty tissue which is mostly used for reducing body fat. Fascino Bodycare the best weight loss clinic in Hyderabad for removing fat in the body.
+                            <br>
+                            Fascino Bodycare which is one of the best weight loss treatments in Hyderabad which will be providing the prevention of weight-related problems, healthy balanced diets and also does a full 3D analysis of the patient’s skin at the first consult.
+                            </p>
+                            <br>
+                            <p style="text-align: justify;color: black;">
+                              <h2><strong style="color: red;">Weight Management Programs</strong></h2>
+                              <strong>Fascino Basic Weight Loss Management Program (BMI)</strong><br>
+       <br>                       <p style="color: black;">
+                             - Long term weight reduction along with prevention of weight related health problems
+<br><br>- Fascino wellness team includes doctors, nutritionist, therapists, counselors
+<br><br>- Approach – Analysis and complete medical history with necessary investigations. Counseling includes motivation, diet &nbsp;&nbsp;&nbsp;and life style modifications
+<br><br>- Therapies – FDA approved treatments, basic, advanced and SPA therapies
+<br><br>- Diets- customized based on BMR, life style habits, eating habits, healthy balanced diet, plant based diets, etc
+<br><br>- Exercises – Monthly once a group discussion is held by our team of doctors, nutritionists, counselors and yoga teacher &nbsp;&nbsp;with our clients to help increase awareness about weight management and to clarify their doubts.
+<br><br>- Regular monitoring, follow ups and care</p>
+                            </p>
+                        <br>
+                            <p style="text-align: justify;color: black;">
+                              <strong style="color: red;">Safe And Proven</strong><br><br>
+                              Fascino is an established brand, which provides world class clinical, and saloon services under one roof covering skin, hair and weight loss services for both women and men. All the treatments at Fascino are very safe with proven results under Doctor supervision.
+                            </p>
+                            <br>
+                            <p style="text-align: justify;color: black;">
+                             <strong style="color: red;"> No Side Effects</strong><br><br>
+                              All procedures are designed and performed by a highly trained team of doctors, experts, nutritionist, counselors and technicians. Treatments can also be customised as per the requirement of the client. The procedure does not have major side effects
+                            </p>
+                            <br>
+                            <p style="text-align: justify;color: black;">
+                             <strong style="color: red;"> Advanced Technologies</strong><br><br>
+                              Fascino Body Care services are advanced non surgical treatments under Doctors supervision and they are performed by professionals with vast industry experience.
+                            </p>
 
-<h4 style="color:grey;">Skin Tightening</h4>
-
-<p style="color:black;text-align: justify;">Skin tightening is done due to the excess loss of weight and the females after pregnancy. The areas where mostly the skin tighten is done near neck, arms, breast can become droopy the front of tummy and the back buttocks and even the inner thighs. Fascino Bodycare is one of the best weight loss clinic in the Hyderabad which will be providing the laser treatment for skin. Laser will not only works on the surface of the skin but also underneath the skin.</p>
-<h4 style="color:grey;">Cool Sculpting</h4>
-
-<p style="color:black;text-align: justify;">Cool Sculpting is not a weight loss procedure. It is a body contouring procedure that uses the
-
-power of cooling to eliminate stubborn fat which is a safe and non-surgical procedure developed by Harvard scientists. This countering treatment is FDA cleared for fat reduction with proven results. Fascino Bodycare weight loss clinics in Hyderabad will be providing board-certified dermatologists. There will not be any pain and patients can expect to see the result within 3 weeks and the final result is seen around three months.</p>
-
-<h4 style="color:grey;">Laser Lipo</h4>
-
- <p style="color:black;text-align: justify;">Fascino Bodycare is one of the best weight loss clinics in Hyderabad which provides you the top Laser Lipo treatment. Fascino’s best Laser Lipo treatment is a non-invasive fat reduction process which absorbs your body fat with the help of 32 highly developed lasers technologies.</p>
-<p style="color:black;text-align: justify;">Fascino’s best Laser Lipo treatment stimulation opens in the fat cell wall and breaks down the fat cell contents allowing fat to escape through the stomas. It is considered successful when the fat cell shrinks and collapses, thereafter being safely removed from the body. Fascino’s best weight loss treatments offer you safe, effective, affordable and non-surgical solutions with advanced treatments.</p>
-<h4 style="color:grey;">Mesotherapy</h4>
-
-<p style="color:black;text-align: justify;">Mesotherapy is a procedure that incorporates all types of medicines that are injected under the epidermis into the fatty tissue which is mostly used for reducing body fat. Fascino Bodycare the best weight loss clinic in Hyderabad for removing fat in the body.</p>
-
- <p style="color:black;text-align: justify;">
-Fascino Bodycare which is one of the best weight loss treatments in Hyderabad which will be providing the prevention of weight-related problems, healthy balanced diets and also does a full 3D analysis of the patient’s skin at the first consult.
-</p><br>
-<h2 style="color:red;text-align: left;">Weight Management Programs</h2>
-<h4 style="color:grey;">Fascino Basic Weight Loss Management Program (BMI)</h4>
-
-Long term weight reduction along with prevention of weight related health problems
-Fascino wellness team includes doctors, nutritionist, therapists, counselors
-Approach – Analysis and complete medical history with necessary investigations. Counseling includes motivation, diet and life style modifications
-Therapies – FDA approved treatments, basic, advanced and SPA therapies
-Diets- customized based on BMR, life style habits, eating habits, healthy balanced diet, plant based diets, etc
-Exercises – Monthly once a group discussion is held by our team of doctors, nutritionists, counselors and yoga teacher with our clients to help increase awareness about weight management and to clarify their doubts.
-Regular monitoring, follow ups and care 
-<h4 style="color:grey;">Safe And Proven</h4>
- <p style="color:black;text-align: justify;">Fascino is an established brand, which provides world class clinical, and saloon services under one roof covering skin, hair and weight loss services for both women and men. All the treatments at Fascino are very safe with proven results under Doctor supervision.</p>
-<h4 style="color:grey;">No Side Effects</h4>
- <p style="color:black;text-align: justify;">All procedures are designed and performed by a highly trained team of doctors, experts, nutritionist, counselors and technicians. Treatments can also be customised as per the requirement of the client. The procedure does not have major side effects</p>
-<h4 style="color:grey;">Advanced Technologies</h4>
-
- <p style="color:black;text-align: justify;">Fascino Body Care services are advanced non surgical treatments under Doctors supervision and they are performed by professionals with vast industry experience.</p>
-
-</div>
-</div></div>
-
-            <div class="slideshow-container">
-
-                <div class="mySlides">
-                    <strong><q style="color: black;">I have been coming to Fascino Body Care for years and I will be coming for many more. The clinics provide great service and treatments, my skin is perfect and my body is hairless!</q>
-                  <p class="author">- Kritika Sharma</p></strong>
-                </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                    
+                </div><!-- end container -->
                 
-                <div class="mySlides">
-                    <strong><q style="color: black;">Recommended. As always great service - friendly, professional, on schedule.</q>
-                  <p class="author">- Jenny</p></strong>
-                </div>
-                
-                <div class="mySlides">
-                    <strong><q style="color: black;">The staff at Fascino Body Care are really helpful, friendly and knowledgeable about the procedures they recommend. I am already noticing a big difference in my skin and am excited to see the end results.</q>
-                  <p class="author">- Rachel</p></strong>
-                </div>
-
-                <div class="mySlides">
-                    <strong><q style="color: black;">Finally got rid of my pigmentation with chemical peels. Best team with an extensive list of treatments to choose from!</q>
-                    <p class="author">- David</p></strong>
-                  </div>
-                
-                  <div class="mySlides">
-                    <strong><q style="color: black;">Laser hair removal gave me smooth skin for a lifetime. I finally got rid of my dark skin.</q>
-                    <p class="author">- Sravnthi</p></strong>
-                  </div>
-                  <div class="mySlides">
-                    <strong><q style="color: black;">My acne marks faded away with three session, a big thumbs up to lasker skin rejuvenation treatment provided by the professionals.</q>
-                    <p class="author">- Smitha Shah</p></strong>
-                  </div>
-                 
-                      
-                
-                <a class="prev" onclick="plusSlides(-1)">❮</a>
-                <a class="next" onclick="plusSlides(1)">❯</a>
-                
-                </div>
-                
-                <div class="dot-container">
-                  <span class="dot" onclick="currentSlide(1)"></span> 
-                  <span class="dot" onclick="currentSlide(2)"></span> 
-                  <span class="dot" onclick="currentSlide(3)"></span> 
-                </div>
-                
-                <script>
-                var slideIndex = 1;
-                showSlides(slideIndex);
-                
-                function plusSlides(n) {
-                  showSlides(slideIndex += n);
-                }
-                
-                function currentSlide(n) {
-                  showSlides(slideIndex = n);
-                }
-                
-                function showSlides(n) {
-                  var i;
-                  var slides = document.getElementsByClassName("mySlides");
-                  var dots = document.getElementsByClassName("dot");
-                  if (n > slides.length) {slideIndex = 1}    
-                  if (n < 1) {slideIndex = slides.length}
-                  for (i = 0; i < slides.length; i++) {
-                      slides[i].style.display = "none";  
-                  }
-                  for (i = 0; i < dots.length; i++) {
-                      dots[i].className = dots[i].className.replace(" active", "");
-                  }
-                  slides[slideIndex-1].style.display = "block";  
-                  dots[slideIndex-1].className += " active";
-                }
-                </script>
-<div class="container-fluid" style="background-color: black;color: white;">
+            </div>
+            <img src="images/24 HOUR.PNG" alt="no photo" width="100%" height="500px">
+           
+<div class="apple-touch-icon" style="background-color:black;color:white;">
     <div class="row">
         <div class="col-md-4">
             <br><ol style="text-align: center;">
             <p>
-             <span style="color: red;" class="glyphicon glyphicon-map-marker" aria-hidden="true"></span><br>  
-             &nbsp; &nbsp;3-5-908, Pooja Manhore Arcade,<br/>&nbsp;&nbsp;&nbsp; Himayathnagar, Hyderabad </p><br>
+            <span style="color: red;" class="glyphicon glyphicon-map-marker" aria-hidden="true"></span><br>  
+             &nbsp; &nbsp;<b>3-5-908, Pooja Manhore Arcade,<br/>&nbsp;&nbsp;&nbsp; Himayathnagar, Hyderabad</b> </p><br>
             
             
      
@@ -297,13 +355,13 @@ Regular monitoring, follow ups and care
         <div class="col-md-4">
             <ol style="text-align: center;"><br>
          <p style="color: white;"> <span style="color: red;" class="glyphicon glyphicon-phone-alt " aria-hidden="true"></span><br> 
-             &nbsp;&nbsp;Telangana: +91-97005 00083<br/>  &nbsp; Tamil Nadu/Kerala : +91-97005 00083<br/> &nbsp; &nbsp; &nbsp; Andhra Pradesh : +91-8881144422  
+             &nbsp;&nbsp;<b>Telangana: +91-97005 00083<br/>  &nbsp; Tamil Nadu/Kerala : +91-97005 00083<br/> &nbsp; &nbsp; &nbsp; Andhra Pradesh : +91-8881144422 </b> 
              </p><br>
      </>
         </div>
         <div class="col-md-4">
            <br> <ol style="text-align: center; "><p style="color: white; "> <span style="color: red; " class="glyphicon glyphicon-envelope" aria-hidden="true"></span><br> 
-                 &nbsp;&nbsp;info@fascinobodycare.com  
+                 &nbsp;&nbsp;<b>info@fascinobodycare.com  </b>
                  </p>
             
             
@@ -312,7 +370,7 @@ Regular monitoring, follow ups and care
     <br>
     <div class="row">
      <div class="col-md-6">
-         <p class="footer-company-name">© 2019 Fascino Body Care. All Rights Reserved.</p>
+         <p class="footer-company-name">&nbsp; &nbsp;&nbsp; &nbsp;<b>© 2019 Fascino Body Care. All Rights Reserved.</b></p>
      </div>
      <div class="col-md-6"><p style="text-align: right;">
 
@@ -330,7 +388,7 @@ Regular monitoring, follow ups and care
 <i class="fa fa-twitter" style="color: red;"></i>
 </a> &nbsp;&nbsp;&nbsp;&nbsp;
 <a class="fa-icon fa-icon-2x" href="https://youtube.com/watch?v=3KVYsAMTF7A" title="">
-<i class="fa fa-youtube" style="color: red;"></i>
+<i class="fa fa-youtube" style="color: red;"></i>&nbsp; &nbsp;&nbsp; &nbsp;
 </a>
 </p></div>
      <br><br>
